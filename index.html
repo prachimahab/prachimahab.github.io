@@ -1,26 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Prachi Mahableshwarkar, <Ph class="D"></Ph> - Research Scientist</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prachi Mahableshwarkar, Ph.D.</title>
   <style>
+    /* General page styling */
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f9f9f9;
-      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
     }
-    h1 {
+
+    /* Banner styling */
+    .banner {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: #0056b3;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      font-weight: bold;
+      border-bottom-left-radius: 8px;
+      text-align: center;
+    }
+
+    /* Icon styling */
+    .icons {
+      position: fixed;
+      top: 50px;
+      right: 0;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .icons a {
+      text-decoration: none;
+      margin: 5px 0;
+    }
+
+    .icons img {
+      width: 30px;
+      height: 30px;
+    }
+
+    /* Sidebar styling */
+    .sidebar {
+      width: 200px;
+      height: 100vh;
+      background-color: #f4f4f4;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      position: fixed;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin: 15px 0;
+    }
+
+    .sidebar ul li a {
+      text-decoration: none;
       color: #0056b3;
+      font-weight: bold;
+    }
+
+    .sidebar ul li a:hover {
+      color: #003f8a;
+    }
+
+    /* Main content area styling */
+    .content {
+      margin-left: 220px;
+      padding: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Portfolio</h1>
-  <p>I am a research scientist specializing in human vision, spatial perception, and data-driven solutions.</p>
-  <ul>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="about.html">About Me</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+  <!-- Banner -->
+  <div class="banner">
+    Prachi Mahableshwarkar, Ph.D.
+  </div>
+
+  <!-- Icons -->
+  <div class="icons">
+    <a href="mailto:prachi.sm11@gmail.com" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/50/email.png" alt="Email">
+    </a>
+    <a href="https://github.com/prachimahab" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub">
+    </a>
+    <a href="https://www.linkedin.com/in/prachi-mahableshwarkar/" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="LinkedIn">
+    </a>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <ul>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#did-you-know">Did You Know</a></li>
+      <li><a href="#depth-in-the-world">Depth in the World</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h1>Welcome to My Portfolio</h1>
+    <p>This is where you can highlight your work and achievements.</p>
+  </div>
 </body>
 </html>
